@@ -70,8 +70,8 @@ Open [http://localhost:3000](http://localhost:3000).
 | `BETTER_AUTH_SECRET` | Random secret, e.g. `openssl rand -base64 32` |
 | `BETTER_AUTH_URL` | `http://localhost:3000` locally, your live URL in production |
 | `NEXT_PUBLIC_APP_URL` | Same as `BETTER_AUTH_URL` |
-| `GITHUB_CLIENT_ID`  | Ov23lih34xscrFBncLD8 |
-| `GOOGLE_CLIENT_SECRET` | 1cec498cdfd713ad151ec1022a48b63c80c0a86b |
+| `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | GitHub OAuth credentials |
+| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Google OAuth credentials (optional) |
 
 GitHub OAuth callback URL: `{BETTER_AUTH_URL}/api/auth/callback/github`
 
